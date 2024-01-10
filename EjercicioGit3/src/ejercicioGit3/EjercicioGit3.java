@@ -9,6 +9,9 @@ public class EjercicioGit3 {
     	if(texto == null || texto.isEmpty()) {
     		return 0;
     	}
+    	
+    	String[] palabras = texto.split("\\s+");
+    	
     	return texto.length();
     }
 	public static void main(String[] args) throws IOException {
